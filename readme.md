@@ -41,7 +41,9 @@ Groups start collapsed and can each be folded independently. Expanded state is p
 
 Hover over a task under **vscode** or **workspace** and select the yellow outline **Star** icon immediately left of its **Run** button. Select it again to remove the star, including from the shortcut under **starred**. A starred task displays a yellow star outline over its green task icon in both locations. The shortcuts support the same **Run**, **Stop**, and **double-click** actions as the original leaves.
 
-Star selections and the **starred** group's expanded state are saved per workspace across VS Code restarts and window reloads. Unavailable tasks and executables keep their saved stars but are hidden until available again.
+Hold the left mouse button on a task in **starred** and drag it to change its position. The order is saved per workspace across VS Code restarts and window reloads; unavailable tasks and executables keep their stars and positions and return in the saved order when available again. Other groups keep their normal sorted order.
+
+Star selections and the **starred** group's expanded state are also saved per workspace across VS Code restarts and window reloads. Unavailable tasks and executables keep their saved stars but are hidden until available again.
 
 # Group: vscode
 
