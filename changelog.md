@@ -1,3 +1,8 @@
+# 1.2.0
+
+* Add a toolbar toggle and `taskLaunchTree.rightToLeft` setting to move item controls (in reverse order) to the left of the tree. The toolbar choice is remembered per workspace.
+* Few GUI improvements
+
 # 1.1.0
 
 * Add ability to manually reorder starred tasks by dragging them.

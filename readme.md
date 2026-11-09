@@ -37,6 +37,12 @@ The tree has these top-level groups:
 
 Groups start collapsed and can each be folded independently. Expanded state is preserved across sessions and when running or stopping tasks and refreshing the view.
 
+# Tree Alignment
+
+Click the **left-right arrow** icon at the start of the view toolbar to mirror the tree. Controls normally shown to the right of items (Open Source, Star, Run, Stop, and the group expand/collapse and workspace view buttons) move to the left, and the per-task controls appear in reverse order. Click it again to restore the default layout.
+
+The selected alignment is saved per workspace and restored across VS Code sessions. Set `taskLaunchTree.rightToLeft` to `true` to start with the mirrored layout by default; a saved toolbar choice takes precedence.
+
 # Group: starred
 
 Hover over a task under **vscode** or **workspace** and select the yellow outline **Star** icon immediately left of its **Run** button. Select it again to remove the star, including from the shortcut under **starred**. A starred task displays a yellow star outline over its green task icon in both locations. The shortcuts support the same **Run**, **Stop**, and **double-click** actions as the original leaves.
